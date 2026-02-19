@@ -1,0 +1,17 @@
+Testing Retail Data (Price/Quantity, no Revenue)...
+C:\Users\sanja\Desktop\Bhavya\project\analytics_engine\analyzer.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  temp_dates = pd.to_datetime(col_data, errors='coerce')
+C:\Users\sanja\Desktop\Bhavya\project\analytics_engine\analyzer.py:34: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  temp_dates = pd.to_datetime(col_data, errors='coerce')
+Analysis Columns: ['Product', 'Category', 'Price', 'Quantity', 'Record Count']
+DEBUG: numeric_cols=['Price', 'Quantity', 'Record Count']
+DEBUG: Initial m1=Record Count
+DEBUG: val_candidates for m1 replacement: ['Price', 'Quantity']
+DEBUG: Updated m1 to Price
+DEBUG KPI: DataFrame has 6 rows
+DEBUG KPI: Record Count column sum = 6.0
+DEBUG KPI: Record Count column values (first 5): [1, 1, 1, 1, 1]
+KPIs generated: 3
+- Total Records: 6.0 (total)
+- Total Price: 700.0 (total)
+- Average Price: 116.66666666666667 (average)
